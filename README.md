@@ -1,6 +1,6 @@
 ITRex-group test for junior/intern frontend developer
 
-[Link to GitHub Pages]()
+[Link to GitHub Pages](https://kleepers.github.io/ITRex-test/)
 
 The task was to make a table with features:
 
