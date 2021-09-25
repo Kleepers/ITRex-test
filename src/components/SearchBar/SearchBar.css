@@ -1,0 +1,23 @@
+.searchBar {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar__select {
+    padding: 8px 12px;
+    color: #333;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.searchBar__select:focus, .searchBar__select:hover {
+    outline: none;
+    border: 1px solid #bbb;
+}
+
+.searchBar__select option {
+    background: #fff;
+}

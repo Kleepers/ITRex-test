@@ -1,0 +1,51 @@
+.table__heading_descending::after {
+    content: '👇';
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+.table__heading_ascending::after {
+    content: '☝️';
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+.table__container {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    min-width: 900px;
+}
+
+.table__heading {
+    text-align: left;
+    background-color: #009879;
+    color: white;
+    font-weight: bold;
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+.table__numbers {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.table__number {
+    cursor: pointer;
+}
+
+.table__number:not(:nth-of-type(1)) {
+    margin-left: 35px;
+}
+
+.table__number_active {
+    font-size: 60px;
+}
+
