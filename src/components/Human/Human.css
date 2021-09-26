@@ -8,6 +8,10 @@
     cursor: pointer;
 }
 
+.human:hover {
+    background-color: #b3e6d4;
+}
+
 .human__cell {
     padding: 12px 15px;
 }

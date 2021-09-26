@@ -29,6 +29,10 @@
     cursor: pointer;
 }
 
+.table__heading:hover {
+    background-color: #007568;
+}
+
 .table__numbers {
     display: flex;
     justify-content: center;
